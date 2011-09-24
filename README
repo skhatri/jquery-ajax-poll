@@ -1,0 +1,10 @@
+A simple jquery plugin to poll a html url using Ajax at a given interval.
+
+Example usage:
+
+http://localhost/progress.htm?file=.
+
+http://localhost/progress.htm?file=utils/jquery.url.poller.js
+
+http://localhost/progress.htm?file=some_process_log.txt
+
