@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Ajax File Poller plugin example</title>
+<script language="javascript" src="utils/jquery-1.6.2.min.js"><!--ff and opera--></script>
+<script type="text/javascript" src="utils/jquery.url.poller.js"><!-- ff and opera --></script>
+<script type="text/javascript" src="utils/progress.js"><!-- ff and opera --></script>
+<link href="utils/progress.css" type="text/css" rel="stylesheet"/>
+<body>
+    <form>
+	File Output: <br/>
+	Polling: <input id="refresh" class="refresh" type="button" value="stop!"/><br/>
+	<textarea class="displaytext" cols="140" rows="31" scrollbars="yes" readonly="true" 
+	id="content">&nbsp;</textarea>
+	</form>
+	<div class="header"><img src="utils/loading-blue.gif"/> Loading...</div>
+	<div class="footer">
+	Ajax File Poller
+	</div>
+</body>
+</html>

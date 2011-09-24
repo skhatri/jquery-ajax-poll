@@ -1,0 +1,30 @@
+.displaytext{
+	color:#00f;
+	background-color:#fff;
+	font-family:'Courier', 'Arial';
+}
+body{
+	background-color:#fff;
+	color:#00f;
+	font-weight:bold;
+	font-family:'Courier', 'Arial';
+}
+.footer{
+	color:#333333;
+	font-size:9px;
+	font-family:'Courier', 'Arial';
+}
+.header{
+	display:none;
+	position:absolute;
+	left:300px;
+	top:2 px;
+	z-index:100;
+	color:#333333;
+	font-family:'Courier', 'Arial';
+	font-size:15px;
+}
+.refresh{
+	background-color:#0a0;
+	color:#fff;
+}
