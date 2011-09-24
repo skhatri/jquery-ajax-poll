@@ -1,6 +1,7 @@
 /**
-Author: Suresh Khatri
-Plugin: Dynamic URL Poller
+* Author: Suresh Khatri
+* Plugin: Dynamic URL Poller
+* Released under the MIT, BSD, and GPL Licenses.
 **/
 (function($){
 	var urlToPoll = "./";
